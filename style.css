@@ -1,0 +1,428 @@
+.bigauto img {
+   position: center;
+	overflow: visible;
+}
+
+* {
+  margin: auto;
+}
+
+li {
+  display: inline-block;
+  transition: ease-out 0.5s;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  padding: 55px;
+  font-family: 'futura';
+}
+
+a {
+  transition: ease-out 0.5s;
+}
+nav {
+  padding: 50px;
+  background-color: relative;
+  text-align: center;
+  border-bottom: 5px relative;
+  border-width: 5px;
+}
+
+nav a:hover {
+    background-color: relative;
+  color: blue;
+ box-shadow: inset 0 0 0 5px relative;
+  transition: ease-out 0.5s;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  font-family: 'Futura';
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Nav {
+  display: flex;
+  position: relative;
+  padding: 5px; 
+}
+
+#Rectangle1 {
+		opacity: 1;
+		fill: rgba(240,207,69,0.651);
+		stroke: rgba(0, 0, 0, 0);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+
+.Rectangle1 {
+		position: absolute;
+		overflow: visible;
+		width: 123px;
+		height: 138px;
+		left: 1038px;
+		top: 1190px;
+	}
+
+#Rectangle2 {
+		opacity: 1;
+		fill: rgba(240,207,69,0.549);
+		stroke: rgba(0, 0, 0, 0);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle2 {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 261px;
+		left: 439px;
+		top: 479px;
+	}
+	#Rectangle3 {
+		opacity: 1;
+		fill: rgba(180,134,191,0.749);
+		stroke: rgba(0, 0, 0, 0);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle3 {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 92px;
+		left: 1024px;
+		top: 423px;
+	}
+	#Rectangle4 {
+		opacity: 1;
+		fill: rgba(255,39,147,0.451);
+		stroke: rgba(255, 255, 255, 0);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle4 {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 59px;
+		left: 151px;
+		top: 420px;
+	}
+	#Rectangle5 {
+		opacity: 1;
+		fill: rgba(255,239,203,0.4);
+		stroke: rgba(255, 255, 255, 0);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle5 {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 184px;
+		left: 287px;
+		top: 965px;
+	}
+#Rectangle6 {
+		opacity: 1;
+		fill: rgba(140,232,208,0.451);
+		stroke: rgba(255, 255, 255, 0);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle6 {
+		position: absolute;
+		overflow: visible;
+		width: 259px;
+		height: 143px;
+		left: 840px;
+		top: 551px;
+	}
+
+
+.vl {
+  border-left: 2.5px solid black;
+  height: 1300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 250px;
+}
+
+#b1 {
+		opacity: 1;
+		position: absolute;
+		left: 565px;
+		top: 220px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: black;
+	}
+
+#a1 {
+		opacity: 1;
+		position: absolute;
+		left: 360px;
+		top: 280px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: black;
+	}
+
+#b2 {
+		opacity: 1;
+		position: absolute;
+		left: 665px;
+		top: 355px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: black;
+	}
+
+#a2 {
+		opacity: 1;
+		position: absolute;
+		left: 670px;
+		top: 415px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: black;
+	}
+
+#b3 {
+		opacity: 1;
+		position: absolute;
+		left: 564px;
+		top: 485px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: black;
+	}
+
+#a3 {
+		opacity: 1;
+		position: absolute;
+		left: 310px;
+		top: 550px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: black;
+	}
+
+#b4 {
+		opacity: 1;
+		position: absolute;
+		left: 668px;
+		top: 860px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: black;
+	}
+
+#a4 {
+		opacity: 1;
+		position: absolute;
+		left: 673px;
+		top: 925px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: black;
+	}
+
+#b5 {
+		opacity: 1;
+		position: absolute;
+		left: 560px;
+		top: 994px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: black;
+	}
+#a5 {
+		opacity: 1;
+		position: absolute;
+		left: 320px;
+		top: 1050px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: black;
+	}
+
+#b6 {
+		opacity: 1;
+		position: absolute;
+		left: 670px;
+		top: 1155px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: black;
+	}
+#a6 {
+		opacity: 1;
+		position: absolute;
+		left: 675px;
+		top: 1217px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: black;
+	}
